@@ -13,7 +13,7 @@ def price(x):
     return '$%1.2f' % x
 
 
-def plot_basic(stocks, title='Google Trading', y_label='Price USD', x_label='Trading Days'):
+def plot_basic(stocks, title='Nifty Trading', y_label='Price Rs', x_label='Trading Days'):
     """
     Plots basic pyplot
     :param stocks: DataFrame having all the necessary data
@@ -35,7 +35,7 @@ def plot_basic(stocks, title='Google Trading', y_label='Price USD', x_label='Tra
     plt.show()
 
 
-def plot_prediction(actual, prediction, title='Google Trading vs Prediction', y_label='Price USD', x_label='Trading Days'):
+def plot_prediction(actual, prediction, title='Nifty Trading vs Prediction', y_label='Price Rs', x_label='Trading Days'):
     """
     Plots train, test and prediction
     :param actual: DataFrame containing actual data
@@ -64,7 +64,7 @@ def plot_prediction(actual, prediction, title='Google Trading vs Prediction', y_
     plt.show()
 
 
-def plot_lstm_prediction(actual, prediction, title='Google Trading vs Prediction', y_label='Price USD', x_label='Trading Days'):
+def plot_lstm_prediction(actual, prediction, title='Nifty Trading vs Prediction', y_label='Price Rs', x_label='Trading Days'):
     """
     Plots train, test and prediction
     :param actual: DataFrame containing actual data
