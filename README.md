@@ -12,7 +12,7 @@ This project utilizes Deep Learning models, Long-Short Term Memory (LSTM) Neural
 
 I have used Keras to build a LSTM to predict stock prices using historical closing price and trading volume and visualize both the predicted price values over time and the optimal parameters for the model.
 
-![Stock Price Predictor](https://github.com/Rajat-dhyani/Stock-Price-Predictor/blob/master/data_visualization_lstm_improved.png)
+![Stock Price Predictor](https://github.com/ils-stack/Stock-Price-Predictor/blob/master/data_visualization_lstm_improved.png)
 
 
 ## Problem Highlights
@@ -46,4 +46,5 @@ This project uses the following software and Python libraries:
 * [Keras](https://keras.io/)
 * [Tensor-flow](https://www.tensorflow.org)
 * [Jupyter Notebook](http://ipython.org/notebook.html)
+
 
